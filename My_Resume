@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Resume</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 5px;
+    }
+
+    h2 {
+      color: #1f4e79;
+      border-bottom: 2px solid #1f4e79;
+      padding-bottom: 5px;
+      margin-top: 30px;
+    }
+
+    .contact {
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .section {
+      margin-bottom: 20px;
+    }
+
+    .job-title {
+      font-weight: bold;
+    }
+
+    .location-date {
+      float: right;
+      font-style: italic;
+    }
+
+    ul {
+      margin-top: 5px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .clearfix::after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Angelina Castillo</h1>
+
+  <div class="contact">
+    <p>
+      angelinacastillo2710@gmail.com | (347) 536-8630 | New York, NY 10040
+    </p>
+  </div>
+
+  <div class="section">
+    <p>
+      Detail-oriented and proactive individual pursuing a career in Computer Information Systems. 
+      Strong foundational skills in HTML, CSS, and various Microsoft Office Suite applications. 
+      Demonstrated ability to communicate in both English and basic Spanish, with a commitment 
+      to enhancing learning experiences in dynamic environments.
+    </p>
+  </div>
+
+  <h2>Education</h2>
+
+  <div class="section clearfix">
+    <span class="job-title">
+      Inwood Early College for Health & Information Technologies
+    </span>
+    <span class="location-date">New York, NY</span>
+    <br />
+    <em>Computer Information Systems Track</em>
+    <span class="location-date">September 2023 - Present</span>
+  </div>
+
+  <div class="section">
+    <span class="job-title">CUNY - Bronx Community College</span>
+    <ul>
+      <li>
+        Completed foundational courses including Math 28, ELA 111, Music, Art, and First Year Seminar 
+        to build a comprehensive knowledge base in Computer Information Systems.
+      </li>
+    </ul>
+  </div>
+
+  <h2>Experience</h2>
+
+  <div class="section clearfix">
+    <span class="job-title">Babysitter – Family</span>
+    <span class="location-date">New York, NY</span>
+    <br />
+    <em>September 2023 - Present</em>
+
+    <ul>
+      <li>
+        Assisted children with homework to improve academic performance and understanding of materials.
+      </li>
+      <li>
+        Prepared and served meals, ensuring nutritional needs were met while fostering independence.
+      </li>
+      <li>
+        Developed a trusting and nurturing relationship with children to create a positive learning environment.
+      </li>
+      <li>
+        Communicated effectively with parents regarding children's daily activities and progress.
+      </li>
+    </ul>
+  </div>
+
+  <div class="section clearfix">
+    <span class="job-title">SYEP (Summer Youth Employment Program) – Participant</span>
+    <span class="location-date">New York, NY</span>
+    <br />
+    <em>June 2024 - August 2024</em>
+
+    <ul>
+      <li>
+        Developed professional workplace skills through hands-on experience in a structured environment.
+      </li>
+      <li>
+        Strengthened communication and problem-solving abilities through workshops and collaborative projects.
+      </li>
+      <li>
+        Worked effectively with peers on team-based assignments and group tasks.
+      </li>
+      <li>
+        Received mentorship and guidance on professional growth and career opportunities.
+      </li>
+    </ul>
+  </div>
+
+  <div class="section clearfix">
+    <span class="job-title">Work ED - AI Discovery Program – Participant</span>
+    <span class="location-date">New York, NY</span>
+    <br />
+    <em>April 2026 - May 2026</em>
+
+    <ul>
+      <li>
+        Built a deeper understanding of AI concepts and real-world applications.
+      </li>
+      <li>
+        Worked with peers to create presentations and complete group projects, demonstrating teamwork and communication skills.
+      </li>
+      <li>
+        Learned how AI technology is used across different industries and career fields.
+      </li>
+    </ul>
+  </div>
+
+  <div class="section clearfix">
+    <span class="job-title">Peer Leadership – Mentor</span>
+    <span class="location-date">New York, NY</span>
+    <br />
+    <em>October 2025 – June 2026</em>
+
+    <ul>
+      <li>
+        Guided peers through academic and personal challenges while providing encouragement and support.
+      </li>
+      <li>
+        Helped students stay organized and manage assignments and responsibilities.
+      </li>
+      <li>
+        Demonstrated teamwork and leadership abilities.
+      </li>
+    </ul>
+  </div>
+
+  <h2>Certifications</h2>
+
+  <div class="section">
+    <ul>
+      <li>Hour of Code</li>
+      <li>EverFi: Ignition Digital Wellness & Safety</li>
+      <li>Hour of Code Certification</li>
+    </ul>
+  </div>
+
+  <h2>Skills</h2>
+
+  <div class="section">
+    <ul>
+      <li>Bilingual (English & Spanish)</li>
+      <li>HTML & CSS</li>
+      <li>Typing Speed: 46 WPM</li>
+      <li>Microsoft Word, PowerPoint, and Excel</li>
+      <li>Hard & Soft Skills</li>
+      <li>Flexible and Adaptable</li>
+      <li>3D Printing</li>
+    </ul>
+  </div>
+
+</body>
+</html>
